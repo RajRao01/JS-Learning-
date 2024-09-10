@@ -7,6 +7,7 @@
 // console.log("2" > 1);
 // console.log("2" > 1);
 
+//this type data conversion not good
 
 console.log(null > 0);
 console.log(null == 0);
