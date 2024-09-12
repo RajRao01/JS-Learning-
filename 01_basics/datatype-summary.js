@@ -28,3 +28,28 @@ const myFunction = function(){
 console.log(typeof bigNumber);
 
 console.log(typeof heros);
+
+// https:262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// Stack (Premitive),Heap(Non primitive)
+
+let myName ="raj"
+
+let anothername = myName
+anothername = "vishal"
+
+console.log(myName);
+console.log(anothername);
+
+
+let userOne = {
+    email : "user@google.com",
+    upi : "vishal@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "raj@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
