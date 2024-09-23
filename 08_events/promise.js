@@ -96,4 +96,4 @@ fetch('https://api.github.com/users/RajRao01')
     return response.json()
 }).then((data) =>{
     console.log(data);
-}).catch((error) => console.log(error))s
+}).catch((error) => console.log(error))
